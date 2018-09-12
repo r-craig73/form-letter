@@ -1,11 +1,12 @@
 # form-letter
+## 1/10/2018
 
 ## GitHub repository: https://github.com/r-craig73/form-letter
 
 #### By Ron Craig (https://github.com/r-craig73) & Alex Ficklin (https://github.com/AlexFicklin)
 
 ## Description
-#### Epicodus lesson - Make a form letter where the user inputs the sender's name, text and the user's name. The user receives a letter addressed to the sender.
+#### Epicodus lesson - Create a form letter where the user inputs the sender's name, text and the user's name. The user receives a letter addressed to the sender.
 
 ## Setup
 * Clone the repository
