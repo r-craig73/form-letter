@@ -12,14 +12,19 @@
   <div class="container">
     <div class="jumbotron"><h1>Letter Form</h1>
     </div>
-    <h1>Fill in the blanks to write a letter.</h1>
+    <h1>Want to create a letter?</h1>
+    <h3>Fill in the sections below and press the 'Create Letter!' button.</h3>
       <form id="letterForm">
+        <div class="form-letter">
+          <label for="yourName">Your name</label>
+          <input id="yourName" class="form-control" type="text">
+        </div>
         <div class="form-letter">
           <label for="date">Today's date</label>
           <input id="date" class="form-control" type="text">
         </div>
         <div class="form-letter">
-          <label for="sender">Who's receiving the letter</label>
+          <label for="sender">Who's receiving the letter?</label>
           <input id="sender" class="form-control" type="text">
         </div>
         <div class="form-letter">
@@ -27,12 +32,8 @@
           <!-- <input id="letterBody" class="form-control" type="text" rows="3"> -->
           <textarea id="letterBody" class="form-control" rows="3"></textarea>
         </div>
-        <div class="form-letter">
-          <label for="yourName">Input your name</label>
-          <input id="yourName" class="form-control" type="text">
-        </div>
-          <br>
-          <button type="submit" class="btn">Create Letter!</button>
+        <br>
+        <button type="submit" class="btn">Create Letter!</button>
       </form>
       <br>
     <div class="container" id="returnLetter">
